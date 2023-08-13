@@ -36,6 +36,7 @@ ul {
    right: 0;
    text-align: center;
    margin-top: 2rem;
+   z-index: 999;
 }
 
 #navbar ul {
@@ -116,4 +117,26 @@ img {
 
 img:hover {
    filter: blur(3px);
+}
+
+.call-to-action {
+   width: 100%;
+   max-width: 1441px;
+   margin: 0 auto;
+   text-align: center;
+   padding: 10rem 0;
+   font-family: 'Roboto', sans-serif;
+}
+
+.call-to-action * {
+   font-size: 2.5rem;
+}
+
+.call-to-action a {
+   text-decoration: none;
+   color: #7f7f7f;
+}
+
+.call-to-action a:hover {
+   color: #7f7f7fb2;
 }
