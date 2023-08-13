@@ -140,3 +140,29 @@ img:hover {
 .call-to-action a:hover {
    color: #7f7f7fb2;
 }
+
+footer {
+   padding: 2rem;
+   width: 100%;
+   max-width: 1441px;
+   display: flex;
+   place-content: center space-between;
+   margin: 0 auto;
+}
+
+footer * {
+   font-size: 13px;
+}
+
+footer ul {
+   gap: 20px;
+}
+
+footer ul li a {
+   text-decoration: none;
+   color: #000000;
+}
+
+footer ul li a:hover {
+   color: #7f7f7fb2;
+}
