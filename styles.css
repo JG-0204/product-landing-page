@@ -63,15 +63,16 @@ ul {
 }
 
 .description {
-   width: 75%;
-   min-width: 460px;
+   width: 100%;
+   max-width: 1441px;
    margin: 0 auto;
    padding: 5rem 0;
+   /* border: 1px solid red; */
 }
 
 .description h1 {
-   width: 50%;
-   min-width: 400px;
+   width: 90%;
+   max-width: 720px;
    margin: 0 auto;
    font-size: 4.4rem;
    text-align: center;
@@ -90,4 +91,29 @@ ul {
    background-color: #e8e5e480;
    border-radius: 1rem;
    font-size: 14px;
+}
+
+.gallery {
+   width: 100%;
+   max-width: 1441px;
+   margin: 0 auto;
+}
+
+.gallery div {
+   margin: 0 auto;
+   width: 100%;
+   display: flex;
+   gap: 20px;
+   padding: 2.5rem 2.5rem 0rem 2.5rem;
+}
+
+img {
+   width: 50%;
+   border-radius: 1rem;
+   cursor: pointer;
+   transition: 0.3s ease;
+}
+
+img:hover {
+   filter: blur(3px);
 }
