@@ -5,6 +5,15 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Landing Page</title>
       <link rel="stylesheet" href="styles.css" />
+
+      <!-- link for animate.css -->
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
    </head>
    <body>
       <header>
@@ -116,5 +125,12 @@
             <li><a href="#">Mail</a></li>
          </ul>
       </footer>
+
+      <script>
+         ScrollReveal().reveal('main', { delay: 500 });
+         ScrollReveal().reveal('.gallery', { delay: 700 });
+         ScrollReveal().reveal('.call-to-action h2', { delay: 200 });
+         ScrollReveal().reveal('.call-to-action p', { delay: 250 });
+      </script>
    </body>
 </html>
